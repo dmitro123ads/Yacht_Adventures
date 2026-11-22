@@ -1,0 +1,17 @@
+.info{
+    padding: 20px;
+    color: var(--white);
+}
+.info-title{
+    font-size: 24px;
+}
+.info-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 30px;
+
+}
+.info-yacht{
+    width: 340px;
+    margin-bottom: 24px;
+}

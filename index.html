@@ -5,44 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <header>
+        <div class="line">
         <div class="logo">
-            <img src="" alt="" class="logo-img">
+            <img src="./img/logo.webp" alt="" class="logo-img">
             <h1 class="logo-name">YACHT ADVENTURES</h1>
         </div>
-        <div class="burger_cont">
-            <nav>
-                <input type="checkbox" name="" id="check_menu">
+        <nav>
+            <ul class="nav-list">
+                <li>About</li>
+                <li>Yachts</li>
+                <li>Reviews</li>
+            </ul>
+
+            <div class="burger_cont">
+
+                <button name="" class="burg-open" id="check_menu"><img src="./img/burg-closed.webp" alt=""
+                        class="burg-closed"></button>
 
                 <label for="check_menu" class="menu_butn"> <span class="burger"></span></label>
-
-                <ul class="nav_list">
-                    <li>About</li>
-                    <li>Yachts</li>
-                    <li>Reviews</li>
-                </ul>
-            </nav>
-        </div>
+                <div class="burger" id="burger">
+                    <button id="close_burg" class="burg-close"><img class="burg-closed" src="./img/burg-opened.webp" alt=""></button>
+                    <ul class="burg-list">
+                        <li class="links"><a href="">About</a></li>
+                        <li class="links"><a href="">Yachts</a></li>
+                        <li class="links"><a href="">Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     </header>
     <main>
         <section class="hero">
-            <h2>Explore the High Seas with Our Luxury Yacht Rentals</h2>
-            <p>Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts
+            <h2 class="hero-title">Explore the High <br>Seas with <mark>Our Luxury Yacht</mark> Rentals</h2>
+            <p class="hero-text">Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts
                 and embark on an unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.
             </p>
-            <button>Get started</button>
-            <button>Explore</button>
+            <button class="hero-but1">Get started</button>
+            <button class="hero-but2">Explore</button>
         </section>
         <section class="our-clients">
-            
+            <img src="./img/our-clients-bg.webp" alt="" class="our-clients-bg">
+            <img src="./img/man-on-yacht.webp" alt="" class="our-clients-man">
+            <img src="./img/clients.webp" alt="" class="our-clients-buble">
+            <p class="our-clients-text">OUR CLIENTS</p>
+            <h2 class="price">$12M</h2>
+            <p class="our-clients-booking">Book now and make your dream yacht rental a reality</p>
+        </section>
+        <section class="info">
+            <h2 class="info-title"><mark>Yacht Adventures</mark> fleet is here to take you on the ultimate adventure. Each yacht is hand-picked for its
+                comfort, style, and performance.</h2>
+            <div class="info-cont">
+                <p>From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect
+                    blend
+                    of luxury and functionality. Take a look at our selection below and choose the yacht that matches
+                    your
+                    needs and preferences.</p>
+                <p>No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and
+                    enjoyable. Book now and get ready for an unforgettable adventure on the high seas.</p>
+
+            </div>
+            <img src="./img/yacht.webp" alt="" class="info-yacht">
+            <img src="./img/yacht2.webp" alt="" class="info-yacht">
+        </section>
+        <section class="dream">
+            <img src="./img/yacht3.webp" alt="" class="info-yacht">
+            <h2>Choose your dream yacht and sail away into the sunset</h2>
+            <button>Yacht rental</button>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

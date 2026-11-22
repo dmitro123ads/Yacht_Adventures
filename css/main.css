@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  background-color: var(--main_backgroun);
+}
+
+.nav-list {
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+header {
+  width: 100%;
+  background-color: var(--main_backgroun);
+  position: fixed;
+  top: 0;
+  padding-top: 4px;
+  z-index: 100;
+}
+
+.line {
+  display: flex;
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: rgba(246, 245, 239, 0.2) 1px solid;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-img {
+  width: 18px;
+  height: 18px;
+}
+
+.logo-name {
+  font-size: 16px;
+  margin: 0;
+  color: var(--white);
+  margin-left: 8px;
+}
+
+.burg-open {
+  background-color: var(--main_backgroun);
+  border: none;
+  margin-left: 110px;
+  width: 24px;
+  height: 24px;
+}
+
+.burg-close {
+  background-color: var(--main_backgroun);
+  border: none;
+  margin-left: 110px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 210px;
+  top: 20px;
+}
+
+.burg-list {
+  position: fixed;
+  margin: 0 auto;
+  margin-top: 11px;
+  padding-top: 140px;
+  background-image: linear-gradient(var(--main_backgroun), rgba(37, 37, 37, 0.932));
+  left: 0;
+  width: 335px;
+  height: 100ch;
+  text-align: center;
+  list-style: none;
+}
+
+.burg-cont {
+  width: 24px;
+}
+
+.burg-closed {
+  width: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.links {
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 35px;
+  color: var(--white);
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.hero {
+  padding: 20px;
+}
+
+mark {
+  background-color: var(--main_backgroun);
+  color: #A1B5BA;
+}
+
+.hero-text {
+  color: var(--white);
+  margin-bottom: 22px;
+}
+
+.hero-but1 {
+  background-color: #93ABAE;
+  width: 130px;
+  height: 43px;
+  border-radius: 60px;
+  border: none;
+  color: var(--white);
+  margin-right: 4px;
+}
+
+.hero-but2 {
+  background-color: var(--main_backgroun);
+  width: 104px;
+  height: 43px;
+  border-radius: 60px;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+:root {
+  --main_backgroun: #11131F;
+  --white: #f6f5ef;
+}
+
+.our-clients {
+  padding: 20px;
+}
+
+.our-clients-man {
+  position: absolute;
+  top: 468px;
+  left: 234px;
+  width: 133px;
+}
+
+.our-clients-buble {
+  position: absolute;
+  top: 457px;
+  left: 44px;
+  width: 135px;
+}
+
+.our-clients-text {
+  position: absolute;
+  top: 500px;
+  left: 44px;
+}
+
+.price {
+  position: absolute;
+  top: 730px;
+  left: 44px;
+  font-size: 46px;
+}
+
+.our-clients-booking {
+  position: absolute;
+  top: 763px;
+  left: 163px;
+  width: 169px;
+  font-size: 14px;
+}
+
+.info {
+  padding: 20px;
+  color: var(--white);
+}
+
+.info-title {
+  font-size: 24px;
+}
+
+.info-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 30px;
+}
+
+.info-yacht {
+  width: 340px;
+  margin-bottom: 24px;
+}
