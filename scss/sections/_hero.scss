@@ -1,8 +1,9 @@
 .hero-title{
-    font-size: 35px;
+    font-size: 36px;
     color: var(--white);
     margin-top: 80px;
     margin-bottom: 0;
+    font-weight: 500;
 }
 .hero{
     padding: 20px;
@@ -14,6 +15,9 @@ mark{
 .hero-text{
     color: var(--white);
     margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
 }
 .hero-but1{
     background-color: #93ABAE;

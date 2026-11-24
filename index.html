@@ -5,45 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <header>
         <div class="line">
-        <div class="logo">
-            <img src="./img/logo.webp" alt="" class="logo-img">
-            <h1 class="logo-name">YACHT ADVENTURES</h1>
-        </div>
-        <nav>
-            <ul class="nav-list">
-                <li>About</li>
-                <li>Yachts</li>
-                <li>Reviews</li>
-            </ul>
-
-            <div class="burger_cont">
-
-                <button name="" class="burg-open" id="check_menu"><img src="./img/burg-closed.webp" alt=""
-                        class="burg-closed"></button>
-
-                <label for="check_menu" class="menu_butn"> <span class="burger"></span></label>
-                <div class="burger" id="burger">
-                    <button id="close_burg" class="burg-close"><img class="burg-closed" src="./img/burg-opened.webp" alt=""></button>
-                    <ul class="burg-list">
-                        <li class="links"><a href="">About</a></li>
-                        <li class="links"><a href="">Yachts</a></li>
-                        <li class="links"><a href="">Reviews</a></li>
-                    </ul>
-                </div>
+            <div class="logo">
+                <img src="./img/logo.webp" alt="" class="logo-img">
+                <h1 class="logo-name">YACHT ADVENTURES</h1>
             </div>
-        </nav>
-    </div>
+            <nav>
+                <ul class="nav-list">
+                    <li>About</li>
+                    <li>Yachts</li>
+                    <li>Reviews</li>
+                </ul>
+
+                <div class="burger_cont">
+
+                    <button name="" class="burg-open" id="check_menu"><img src="./img/burg-closed.webp" alt=""
+                            class="burg-closed"></button>
+
+                    <label for="check_menu" class="menu_butn"> <span class="burger"></span></label>
+                    <div class="burger" id="burger">
+                        <button id="close_burg" class="burg-close"><img class="burg-closed" src="./img/burg-opened.webp"
+                                alt=""></button>
+                        <ul class="burg-list">
+                            <li class="links"><a href="">About</a></li>
+                            <li class="links"><a href="">Yachts</a></li>
+                            <li class="links"><a href="">Reviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="hero">
-            <h2 class="hero-title">Explore the High <br>Seas with <mark>Our Luxury Yacht</mark> Rentals</h2>
-            <p class="hero-text">Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts
+            <h2 class="hero-title">Explore the High Seas with <mark>Our Luxury Yacht</mark> Rentals</h2>
+            <p class="hero-text">Experience the freedom and luxury of yachting on the open seas. Choose from our
+                top-of-the-line yachts
                 and embark on an unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.
             </p>
             <button class="hero-but1">Get started</button>
@@ -58,7 +63,8 @@
             <p class="our-clients-booking">Book now and make your dream yacht rental a reality</p>
         </section>
         <section class="info">
-            <h2 class="info-title"><mark>Yacht Adventures</mark> fleet is here to take you on the ultimate adventure. Each yacht is hand-picked for its
+            <h2 class="info-title"><mark><i>Yacht Adventures</i></mark> fleet is here to take you on the ultimate adventure.
+                Each yacht is hand-picked for its
                 comfort, style, and performance.</h2>
             <div class="info-cont">
                 <p>From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect
@@ -73,10 +79,42 @@
             <img src="./img/yacht.webp" alt="" class="info-yacht">
             <img src="./img/yacht2.webp" alt="" class="info-yacht">
         </section>
-        <section class="dream">
-            <img src="./img/yacht3.webp" alt="" class="info-yacht">
-            <h2>Choose your dream yacht and sail away into the sunset</h2>
-            <button>Yacht rental</button>
+        <section class="yacht-rental">
+            <img src="./img/yacht3.webp" alt="" class="rental-yacht-bg">
+            <h2 class="yacht-rental-title">Choose your dream yacht and sail away into the sunset</h2>
+            <button class="rental-but">Yacht rental</button>
+        </section>
+        <section class="yacht-cards">
+            <article class="card1">
+                <img src="./img/card1.webp" alt="" class="card1-img">
+                <div class="card-title">
+
+                    <h2 class="card-title1">ARROW</h2>
+                    <h2 class="card-title2">LUXURY YAHTS</h2>
+                </div>
+                    <div class="card-description">
+                        <ul class="card-list">
+                            <li>LENGTH</li>
+                            <li>BUILDER</li>
+                            <li>BUILT</li>
+                            <li>GUESTS</li>
+                            <li>PRICE</li>
+                        </ul>
+                        <ul class="card-list">
+                            <li>48m(155ft)</li>
+                            <li>Admiral</li>
+                            <li>2021</li>
+                            <li>11 in 5 cabins</li>
+                            <li>€33,500,000</li>
+                        </ul>
+                    </div>
+                    
+            </article>
+            <div class="arrows">
+            <button class="arrow"><-</button>
+            
+            <button class="arrow">-></button>
+        </div>
         </section>
     </main>
     <footer>

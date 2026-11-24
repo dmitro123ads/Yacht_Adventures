@@ -1,0 +1,64 @@
+.yacht-cards{
+    padding: 20px;
+}
+.card1{
+    background-color: var(--card_bg);
+    height: 439px;
+    border-radius: 20px;
+    padding: 18px;
+    
+}
+.card1-img{
+    width: 299px;
+    height: 251px;
+    
+}
+.card-list{
+    list-style: none;
+    color: var(--white);
+    padding-left: 0;
+}
+.card-list li{
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.card-description{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+.card-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.card-title1{
+    color: var(--white);
+    font-size: 16px;
+
+}
+.card-title2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 50px;
+    font-weight: 400;
+}
+.arrow{
+    background-color: var(--main_backgroun);
+    width: 46px;
+    height: 36px;
+    border-radius: 60px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    margin:24px 7px;
+}
+.arrows{
+    text-align: center;
+    
+}
+.arrow-divader{
+    width: 14px;
+}

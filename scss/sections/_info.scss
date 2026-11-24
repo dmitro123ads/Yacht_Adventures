@@ -1,15 +1,26 @@
 .info{
     padding: 20px;
     color: var(--white);
+    margin-top: 40px;
 }
 .info-title{
     font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -4%;
 }
 .info-cont{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 30px;
-
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    gap: 14px;
+}
+.info-cont p{
+    width: 160px;
+    
 }
 .info-yacht{
     width: 340px;
