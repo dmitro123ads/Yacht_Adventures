@@ -1,0 +1,40 @@
+.servises{
+    padding: 18px;
+}
+.serv1{
+    background-image: url(/img/dive.webp);
+    background-size: cover;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.serv2{
+    background-image: url(/img/fish.webp);
+    background-size: cover;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.serv3{
+    background-image: url(/img/sunb.webp);
+    background-size: cover;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.serv-but{
+    background-color: var(--white);
+    width: 130px;
+    height: 43px;
+    border-radius: 60px;
+    border: none;
+    color: black;
+    margin-right: 4px;
+    margin-top: 250px;
+}

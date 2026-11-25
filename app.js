@@ -11,3 +11,17 @@ check_menu.addEventListener("click", ()=>{
 close_burg.addEventListener("click", ()=>{
     burger.style.display = "none";
 })
+
+const form_menu = document.getElementById("form_menu");
+const form_close = document.getElementById("form_close");
+const form = document.getElementById("form");
+
+form_menu.addEventListener("click", ()=>{
+    form.style.display = "grid";
+    
+    
+})
+
+form_close.addEventListener("click", ()=>{
+    form.style.display = "none";
+})

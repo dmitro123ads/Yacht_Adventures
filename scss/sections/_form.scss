@@ -1,0 +1,51 @@
+.form-title{
+    color: var(--white);
+    font-size: 36px;
+    font-weight: 500;
+}
+.rent-form img{
+    width: 259px;
+    
+}
+.rent-form{
+    padding: 20px;
+}
+.form-in{
+    background-color: var(--main_backgroun);
+    border: none;
+    border-bottom: 1px solid var(--half_white);
+    padding:24px 0px 16px 0px;
+    color: var(--white);
+    
+}
+.emeil{
+    border-bottom: 1px solid var(--white);
+}
+.comment{
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 58px;
+}
+::placeholder{
+    color: var(--white);
+}
+
+form{
+    display: grid;
+
+}
+.form{
+    grid-template-columns: repeat(1, 1fr);
+    display: none;
+    background-image: radial-gradient(circle at center, var(--card_bg) ,var(--main_backgroun),var(--card_bg));
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+}
+.form_closed{
+    background-color: rgba(160, 36, 36, 0);
+    width: 20px;
+    height: 20px;
+    border: none;
+}

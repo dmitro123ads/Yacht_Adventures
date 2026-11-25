@@ -1,0 +1,36 @@
+.comment-cards{
+    padding: 20px;
+}
+.comment-card1{
+    background-color: var(--card_bg);
+    padding: 24px 14px;
+    text-align: center;
+    border-radius: 20px;
+}
+.comment-name{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+.comment-face{
+    width: 48px;
+    
+}
+.comment-text{
+    color: var(--half_white);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.check-comments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 14px 130px;
+}
+.check-comments img{
+    width: 13px;
+    margin: 0 auto;
+}
