@@ -377,7 +377,7 @@ mark {
   font-weight: 500;
 }
 
-.rent-form img {
+.rent-form-img {
   width: 259px;
 }
 
@@ -421,8 +421,11 @@ form {
   border-radius: 20px;
   padding: 20px;
   z-index: 100;
-  top: 0;
+  top: 120px;
   position: fixed;
+  margin: 10px;
+  left: 0;
+  color: var(--white);
 }
 
 .form_closed {
@@ -430,6 +433,18 @@ form {
   width: 20px;
   height: 20px;
   border: none;
+  justify-self: end;
+}
+
+.form-modal {
+  font-weight: 500;
+}
+
+.form-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -2%;
 }
 
 .comment-cards {
@@ -472,4 +487,13 @@ form {
 .check-comments img {
   width: 13px;
   margin: 0 auto;
+}
+
+.line-bot {
+  border-top: 1px;
+  display: flex;
+  margin: 20px;
+  padding-top: 40px;
+  margin-top: 10px;
+  border-top: rgba(246, 245, 239, 0.2) 1px solid;
 }

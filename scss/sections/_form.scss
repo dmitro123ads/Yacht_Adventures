@@ -3,7 +3,7 @@
     font-size: 36px;
     font-weight: 500;
 }
-.rent-form img{
+.rent-form-img{
     width: 259px;
     
 }
@@ -40,12 +40,26 @@ form{
     border-radius: 20px;
     padding: 20px;
     z-index: 100;
-    top: 0;
+    top: 120px;
     position: fixed;
+    margin: 10px;
+    left: 0;
+    color: var(--white);
 }
 .form_closed{
     background-color: rgba(160, 36, 36, 0);
     width: 20px;
     height: 20px;
     border: none;
+    
+    justify-self: end;
+}
+.form-modal{
+    font-weight: 500;
+}
+.form-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
 }
